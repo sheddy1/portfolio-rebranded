@@ -1,0 +1,47 @@
+body{
+    background-color: #212524;
+}
+
+.home_header_nav2{
+    color: hsl(165, 61%, 70%)
+}
+
+.about_header{
+    position: absolute;
+    color: #D5A979;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: roboto;
+    text-decoration: underline
+}
+
+.about_photo{
+    height: 500px;
+    width: 380px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+}
+
+.about_details{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 670px;
+    height: 300px;
+    color: #D5A979;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #D5A979;
+
+
+}
