@@ -8,6 +8,9 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use DB;
 use App\Models\message;
+use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 class Controller extends BaseController
 {
@@ -46,6 +49,20 @@ class Controller extends BaseController
         else{
             return back()->with('fail', 'something went wrong try again');
         }
+    }
+
+    function download()
+    {
+        //$file = 'files/godwin_cv.pdf';
+
+        //$headers = array(
+          //'Content-Type: pdf',
+        //);
+
+        //return Response::download(publi$file, "sdsdsdsd", $headers);
+
+        $path = Storage::path('public/godwin_cv.pdf');  
+        return response()->download($path);
     }
 
     

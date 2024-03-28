@@ -8,6 +8,10 @@
 <body>
 <header>
             @yield('home_header')
+            <input type="checkbox" id="check" style="display:none">
+            <label for="check">
+                <img src="{{ URL('images/menu.png') }}" alt="Menu" class="home_header_menu">
+            </label>
             <img src="{{ URL('images/logo1.png') }}" class="home_header_logo">
             <label class="home_header_name">Shadrach Godwin</label>
             <nav>
@@ -18,7 +22,10 @@
                     <li><a href="{{ route('contact') }}" class="home_header_nav4">Contact</a></li>
                 </ul>
             </nav>
-            <button class="home_header_btn">Download CV</button>
+            
+            <form action="{{ route('download') }}" method="get">
+                <button class="home_header_btn">Download CV</button>
+            </form>
         </header>
 </body>
 </html>

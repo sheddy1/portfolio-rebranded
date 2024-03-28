@@ -53,6 +53,28 @@ body{
     font-family: roboto;
 }
 
+@media(max-width: 1100px){
+    .comp2{
+        top: 350px;
+    }
+    
+}
+
+@media(max-width: 670px){
+    .comp2{
+        top: 250px;
+    }
+    
+}
+
+
+@media(max-width: 470px){
+    .comp2{
+        left: 30px;
+    }
+    
+}
+
 .comp2_lab2{
     font-size: 80px;
     color: #D5A979;
@@ -92,3 +114,55 @@ body{
 .home_header_nav1{
     color: hsl(165, 61%, 70%)
 }
+
+@media(max-width: 520px){
+    .comp2_lab2{
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 340px){
+    .comp2_lab2{
+        font-size: 30px;
+    }
+
+    .comp2_lab1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 520px){
+    .comp2_lab3{
+        font-size: 20px;
+        top: 130px;
+    }
+
+    .comp2_btn{
+        bottom: 50px;
+    }
+}
+
+
+@media(max-width: 400px){
+    .comp2_lab3{
+        font-size: 20px;
+        top: 120px;
+    }
+}
+
+@media(max-width: 270px){
+    .comp2_lab3{
+        font-size: 13px;
+        
+    }
+}
+
+@media(max-width: 270px){
+    .comp2_btn{
+        width: 120px;
+        height:25px;
+        font-size: 13px;
+        bottom: 70px;
+    }
+}
+

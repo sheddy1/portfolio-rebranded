@@ -24,3 +24,5 @@ Route::get('Projects', 'Controller@projects')->name('projects');
 Route::get('Contact', 'Controller@contact')->name('contact');
 
 Route::post('Message', 'Controller@message')->name('message');
+
+Route::get('download', 'Controller@download')->name('download');
