@@ -4,14 +4,27 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        },
+
+        {
+            "src": "/(css)",
+            "dest": "/public/css/"
+        },
+
+        {
+            "src" : "/img/(.*)",
+            "dest": "/public/images/"
+        }
+      
+    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourproductionurl.com",
+        "APP_URL": "https://shadrachgodwin-o3aln5nq7-sheddy1s-projects.vercel.app",
  
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -23,5 +36,7 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    
+    "outputDirectory": "public"
 }

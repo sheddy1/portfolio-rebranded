@@ -1,0 +1,206 @@
+body{
+    background-color: #212524;
+}
+
+.home_header_nav4{
+    color: hsl(165, 61%, 70%)
+}
+
+.contact_box{
+    height: 420px;
+    width: 400px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.contact_image{
+    position:inherit;
+    top: -32px;
+    left: -40px;
+    height: 510px;
+    width: 480px;
+    z-index: -1;
+}
+
+.contact_header{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration-line: underline;
+    color: #D5A979;
+}
+
+.Contact_box_name{
+    width: 350px;
+    height: 25px;
+    border-radius:  5px;
+    border: 3px solid #D5A979;
+    background: none;
+    color: #D5A979;
+    font-weight: 700;
+    outline: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.Contact_box_name1{
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    width: 350px;
+    height: 47px;
+    color: #84E1CA;
+    font-size: 13px;
+}
+
+.contact_error{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Contact_box_email1{
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    width: 350px;
+    height: 47px;
+    color: #84E1CA;
+    font-size: 13px;
+}
+
+.Contact_box_email{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 350px;
+    height: 25px;
+    border-radius:  5px;
+    border: 3px solid #D5A979;
+    background: none;
+    color: #D5A979;
+    font-weight: 700;
+    outline: none;
+}
+
+.Contact_box_phone1{
+    position: absolute;
+    left: 25px;
+    top:170px;
+    width: 350px;
+    height: 47px;
+    color: #84E1CA;
+    font-size: 13px;
+}
+
+.Contact_box_phone{
+    width: 350px;
+    height: 25px;
+    border-radius:  5px;
+    border: 3px solid #D5A979;
+    background: none;
+    color: #D5A979;
+    font-weight: 700;
+    outline: none;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+
+.Contact_box_message1{
+    position: absolute;
+    left: 25px;
+    top:220px;
+    width: 350px;
+    height: 150px;
+    color: #84E1CA;
+    font-size: 13px;
+}
+
+.Contact_box_message{
+    border-radius:  5px;
+    border: 3px solid #D5A979;
+    background: none;
+    color: #D5A979;
+    font-weight: 700;
+    outline: none;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    font-size: 23px;
+}
+
+.contact_info_button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px solid #D5A979;
+    background: none;
+    color: #D5A979;
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.contact_phone{
+    width: 400px;
+    height: 70px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.contact_email{
+    width: 400px;
+    height: 70px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+.contact_address{
+    width: 400px;
+    height: 70px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.contact_phone1{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #D5A979;
+}
+
+.contact_phone2{
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #D5A979;
+}
