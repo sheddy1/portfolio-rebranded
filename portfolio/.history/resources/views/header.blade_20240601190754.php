@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ URL('css/header_footer.css') }}">
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
                     <li><a href="{{ route('contact') }}" class="home_header_nav4">Contact</a></li>
                 </ul>
             </nav>
-
+            
             <form action="{{ route('download') }}" method="get">
                 <button class="home_header_btn">Download CV</button>
             </form>

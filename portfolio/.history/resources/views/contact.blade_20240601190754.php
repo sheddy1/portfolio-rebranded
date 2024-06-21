@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="icon" href="{{ URL('images/logo1.png') }}">
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+    <link rel="stylesheet" href="{{ URL('css/contact.css') }}">
 </head>
 <body>
     @extends('header')
@@ -19,23 +19,23 @@
             <input type="text" name="name" class="Contact_box_name" placeholder="Full Name">
             <span class="contact_error">@error('name'){{ $message }} @enderror</span>
         </span>
-
+        
         <span class="Contact_box_email1">
             <input type="text" name="email" class="Contact_box_email" placeholder="Email Address">
             <span class="contact_error">@error('email'){{ $message }} @enderror</span>
         </span>
 
-
+        
         <span class="Contact_box_phone1">
             <input type="text" name="phone" class="Contact_box_phone" placeholder="Input Phone Number With Country Code">
             <span class="contact_error">@error('phone'){{ $message }} @enderror</span>
         </span>
-
+        
         <span class="Contact_box_message1">
             <textarea name="message" class="Contact_box_message" placeholder="Message" id="" cols="26" rows="4"></textarea>
             <span class="contact_error">@error('message'){{ $message }} @enderror</span>
         </span>
-
+       
 
         <button class="contact_info_button">
             Submit
